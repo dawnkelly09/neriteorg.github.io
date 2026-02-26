@@ -228,3 +228,7 @@ The liquidator can freely choose between two fallback liquidation modes for the 
 
 ### Shutdown Borrow Markets
 The system may shut down borrow markets whose total collateralization ratio (TCR) falls below 110% (for ETH) or other amounts for other collaterals based on risk parameters. The shutdown is performed by incentivizing redemptions against the respective collateral (see [this](https://liquity.gitbook.io/v2-whitepaper/liquity-v2-whitepaper/functionality-and-use-cases#c9aukpugrj32) for more details)
+
+### Trove Explorer
+
+Want to browse all Troves on the protocol? The [Trove Explorer](https://app.nerite.org/troves) lets you view every Trove — active, closed, liquidated, and redeemed — with sortable columns for debt, collateral value, liquidation price, LTV, and interest rate.
